@@ -318,7 +318,7 @@ def decode_jwt(
         # Validate custom claims
         if custom_validators:
             _validate_custom_claims(payload, custom_validators)
-
+    
     return header, payload
 
 
